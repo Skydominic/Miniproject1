@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+   
+  </head>
+  <body>
+    <div class="home-bg"><a href="index.html" alt="Back to home">
+      <ion-icon class="icon-slide icon-home" name="caret-back-outline"></ion-icon>
+    </a></div>
+    
+    <section class="our-products" id="our-products">
+      <div class="container">
+        <h2 class="header-2">Our Products</h2>
+        <form class="search-form">
+          <input type="text" name="input" placeholder="Search for products">
+        </form>
+        <div class="product-container">
+          <!-- injected products here -->
+        </div>
+      
+      </div>
+    </section>
+
+    <section class="section-footer">
+      <div class="footer container grid-3-cols grid">
+        <div class="footer-div">
+          <a href="index.html">
+            <img src="imgs/logo-nav.svg" class="nav-logo" alt="logo"
+          /></a>
+
+          </div>
+          
+        <div class="footer-div">
+          <h4 class="header-4">Connect to Us</h4>
+          <div class="div-logo-text"> <ion-icon class="icon"  name="home"></ion-icon><p>Alexander St. Corner Rosario St. Poblacion,
+            Urdaneta City, Pangasinan, Philippines</p>
+          </div>
+          <div class="div-logo-text"> <ion-icon class="icon"  name="mail"></ion-icon><p>
+            prestigeinternationalofficial@gmail.com</p>
+          </div>
+          </div>
+
+      <div class="footer-div">
+        <h4 class="header-4">Social Medias</h4>
+        <div class="social-div">
+        <div class="div-logo-text"> <ion-icon class="icon"  name="logo-facebook"></ion-icon><a  class="footer-link" target="_blank" href="https://www.facebook.com/Prestigemain">Facebook</a>
+        </div>
+        <div class="div-logo-text"> <ion-icon class="icon"  name="logo-youtube"></ion-icon><a  class="footer-link" target="_blank" href="https://www.youtube.com/c/MannixTV">Youtube</a>
+        </div>
+        <div class="div-logo-text"> <ion-icon class="icon"  name="logo-instagram"></ion-icon><a  class="footer-link" target="_blank" href="https://www.instagram.com/prestigeinternationalofficial/?hl=en">Instagram</a>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="section-pop-up">
+      <div class="pop-container hidden">
+       
+       <h2 class="pop-up-header"></h2>
+
+        <div class="pop-img-div">
+          <img class="pop-img " src="" alt="rejuv" />
+          <div class="pop-price-div"><h2 class="pop-price">P300</h2></div>
+        </div>
+        <div class="pop-description-div">
+          <h3 class="header-3">DESCRIPTION</h3>
+          <p class="pop-description pop-p">
+           
+          </p>
+        </div>
+        <div class="how-to-use-div">
+               <h3 class="header-3 ">INGREDIENTS</h3>
+          <p class="ingredients pop-p">
+            
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="overlay hidden">
+      <button class="btn-pop">
+        <ion-icon class="pop-icon-close" name="close-outline"></ion-icon>
+      </button>
+    </div>
+
+
+    <script src="js/dataproducts.js"></script>
+    <script src="js/productContainer.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
